@@ -3,7 +3,6 @@ import react from "@vitejs/plugin-react";
 import { lingui } from "@lingui/vite-plugin";
 
 // https://vitejs.dev/config/
-//@ts-ignore
 export default defineConfig(async () => ({
   plugins: [
     react({
